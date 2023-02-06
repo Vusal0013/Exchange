@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6em;
+}
+
+.container{
+    width: 1000px;
+    padding: 1rem 3rem;
+    margin: auto;
+}
+header{
+    display: flex;
+}
+
+.header__logo > img{
+    height: 7rem;
+}
+
+.header__menu{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    align-items: center;
+}
+
+.container-ul-loginBtn{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.login-btn span{
+    border: 1px solid #333;
+    padding: 0.5rem 1rem;
+}
+.login-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    text-align: center;
+}
+
+.main__container-input{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.container-first, .container-second{
+    width: 26rem;
+    height: 10rem;
+    position: relative;
+}
+
+#first-exchange-value, #second-exchange-value{
+    width: 100%;
+    height: 4rem;
+}
+
+#first-input, #second-input{
+    width: 100%;
+    height: 100%;
+}
+
+#first-exchange-placeholder, #second-exchange-placeholder{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 1rem;
+
+}
